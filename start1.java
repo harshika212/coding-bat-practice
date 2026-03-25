@@ -6,3 +6,11 @@
 // start1([7, 2, 3], [1]) → 1
 // start1([1, 2], []) → 1
 
+public int start1(int[] a, int[] b) {
+  int c=0;
+  if (a.length>0 && a[0] == 1) c++;
+  if (b.length>0 && b[0] == 1) c++;
+  return c;
+}
+
+
